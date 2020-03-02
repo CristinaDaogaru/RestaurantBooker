@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29806.167
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RestaurantBooker", "RestaurantBooker\RestaurantBooker.csproj", "{2D9D5CB6-2C7B-4B83-B504-36D8CE20B47E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RestaurantBocker.Database", "RestaurantBocker.Database\RestaurantBocker.Database.csproj", "{A224F18E-D516-4178-A10F-EE27F45E3198}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RestaurantBooker.Web", "RestaurantBooker.Web\RestaurantBooker.Web.csproj", "{02F70C52-A2D4-4B7B-80EC-31E9BAE920F1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,10 +13,14 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{2D9D5CB6-2C7B-4B83-B504-36D8CE20B47E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{2D9D5CB6-2C7B-4B83-B504-36D8CE20B47E}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{2D9D5CB6-2C7B-4B83-B504-36D8CE20B47E}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{2D9D5CB6-2C7B-4B83-B504-36D8CE20B47E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A224F18E-D516-4178-A10F-EE27F45E3198}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A224F18E-D516-4178-A10F-EE27F45E3198}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A224F18E-D516-4178-A10F-EE27F45E3198}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A224F18E-D516-4178-A10F-EE27F45E3198}.Release|Any CPU.Build.0 = Release|Any CPU
+		{02F70C52-A2D4-4B7B-80EC-31E9BAE920F1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{02F70C52-A2D4-4B7B-80EC-31E9BAE920F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{02F70C52-A2D4-4B7B-80EC-31E9BAE920F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{02F70C52-A2D4-4B7B-80EC-31E9BAE920F1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
