@@ -26,6 +26,8 @@
                     {
                         Id = c.Guid(nullable: false),
                         PhoneContact = c.String(nullable: false, maxLength: 13),
+                        DateTime = c.DateTime(nullable: false),
+                        NumberOfPerson = c.Int(nullable: false),
                         Observation = c.String(maxLength: 500),
                         State = c.Int(nullable: false),
                         ClientId = c.Guid(nullable: false),

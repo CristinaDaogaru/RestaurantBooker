@@ -8,11 +8,20 @@ namespace RestaurantBocker.Database.EntityModels
     {
         [Key]
         public Guid Id { get; set; }
+
         [Required]
         [MaxLength(13)]
         public string PhoneContact { get; set; }
+
+        [Required]
+        public DateTime DateTime { get; set; }
+
+        [Required]
+        public int NumberOfPerson { get; set; }
+
         [MaxLength(500)]
         public string Observation { get; set; }
+
         [Required]
         public int State { get; set; }
         public Guid ClientId { get; set; }

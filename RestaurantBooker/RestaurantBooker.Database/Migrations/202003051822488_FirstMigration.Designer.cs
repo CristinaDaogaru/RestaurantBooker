@@ -13,7 +13,7 @@ namespace RestaurantBooker.Database.Migrations
         
         string IMigrationMetadata.Id
         {
-            get { return "202003051748137_FirstMigration"; }
+            get { return "202003051822488_FirstMigration"; }
         }
         
         string IMigrationMetadata.Source

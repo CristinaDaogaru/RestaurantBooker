@@ -63,9 +63,9 @@
     <Compile Include="EntityModels\Reservation.cs" />
     <Compile Include="EntityModels\Restaurant.cs" />
     <Compile Include="EntityModels\UserAuthentication.cs" />
-    <Compile Include="Migrations\202003051748137_FirstMigration.cs" />
-    <Compile Include="Migrations\202003051748137_FirstMigration.designer.cs">
-      <DependentUpon>202003051748137_FirstMigration.cs</DependentUpon>
+    <Compile Include="Migrations\202003051822488_FirstMigration.cs" />
+    <Compile Include="Migrations\202003051822488_FirstMigration.designer.cs">
+      <DependentUpon>202003051822488_FirstMigration.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -75,8 +75,8 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Migrations\202003051748137_FirstMigration.resx">
-      <DependentUpon>202003051748137_FirstMigration.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\202003051822488_FirstMigration.resx">
+      <DependentUpon>202003051822488_FirstMigration.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
